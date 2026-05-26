@@ -11,6 +11,7 @@
 	<groupId>org.strengthlens</groupId>
 	<artifactId>webfitness</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name/>
 	<description/>
 	<url/>
@@ -20,6 +21,9 @@
 	<developers>
 		<developer/>
 	</developers>
+	<modules>
+		<module>org.strengthlens.security</module>
+	</modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
