@@ -1,4 +1,4 @@
-package org.strengthlens.security.controller;
+package org.strengthlens.webfitness.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
