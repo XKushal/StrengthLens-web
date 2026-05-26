@@ -7,6 +7,17 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>org.strengthlens.security</artifactId>
-    <name>Archetype - org.strengthlens.security</name>
-    <url>http://maven.apache.org</url>
+    <name>org.strengthlens.security</name>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security-oauth2-client</artifactId>
+        </dependency>
+    </dependencies>
 </project>
